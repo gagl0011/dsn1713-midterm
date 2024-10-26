@@ -8,16 +8,13 @@
   --bs-light: #f6f3ed;
 }
 
-
-
-
 .navbar-brand {
   color: #F6F3ED;
 }
 
 .btn {
-  --bs-btn-bg:#2e483a;
-  --bs-btn-border-color:#2e483a;
+  --bs-btn-bg: var(--bs-primary);
+  --bs-btn-border-color: var(--bs-primary)
 }
 
 body {
